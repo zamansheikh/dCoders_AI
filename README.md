@@ -1,2 +1,32 @@
 # dCoders_AI
-Have you ever wondered how cool it would be to have your own A.I. assistant? Imagine how easier it would be to send emails without typing a single word, doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command.
+
+Project Description:
+A.I. assistant that can perform many daily tasks like sending emails, playing music, and searching Wikipedia.
+
+Project Name: dCoders_AI
+Project Maintainer: dCoders Family
+    Contributors:
+        Name: Zaman Sheikh (Md. Shamsuzzaman)
+        ID: 211-15-4031
+        Name: Abdullah Al Mamun
+        ID: 211-15-4052
+        Name: Muhaiminul Islam Nafiz
+        ID: 211-15-4041
+
+
+# Imported Repo:
+    pip install pyttsx3
+    pip install speechRecognition
+    pip install pyaudio
+    pip install wikipedia
+
+
+# Imported Package
+    import pyttsx3
+    import datetime
+    import speech_recognition as sr
+    import pyaudio
+ 
+
+# How to use:
+Run & Play with it. It's that simple. You can also add more features to it.
