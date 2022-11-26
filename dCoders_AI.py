@@ -3,6 +3,8 @@ import datetime
 import speech_recognition as sr
 import pyaudio
 import wikipedia
+import webbrowser
+import os
 
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty('voices')
@@ -59,4 +61,19 @@ if __name__ == "__main__":
             speak("According to Wikipedia")
             print(results)
             speak(results)
-    
+        elif 'open youtube' in query:
+            webbrowser.open("youtube.com")
+        elif 'open google' in query:
+            webbrowser.open("google.com")
+        elif 'open stackoverflow' in query:
+            webbrowser.open("stackoverflow.com")
+        elif 'play music' in query:
+            #open spotify
+            webbrowser.open("spotify.com")
+        elif 'the time' in query:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")    
+            speak(f"Sir, the time is {strTime}")
+        elif 'open code' in query:
+            #open vscode
+            codePath = "C:\\Users\\dell\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            os.startfile(codePath)

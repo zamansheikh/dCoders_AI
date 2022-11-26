@@ -32,6 +32,8 @@ Devolopers:
     import speech_recognition as sr
     import pyaudio
     import wikipedia
+    import webbrowser
+    import os
  
 
 # How to use:
