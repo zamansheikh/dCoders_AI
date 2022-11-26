@@ -85,4 +85,56 @@ if __name__ == "__main__":
         elif 'shutdown system' in query:
             speak("Shutting down")
             isRunning = False
+
+        elif 'about developers' in query:
+            speak("The are pretty persion. ")
+            
+        elif 'open dCoders' in query:
+            webbrowser.open("github.com/zamansheikh/dCoders_AI")
+
+        elif 'open github' in query:
+            webbrowser.open("github.com")
+        elif 'open facebook' in query:
+            webbrowser.open("facebook.com")
+        elif 'open instagram' in query:
+            webbrowser.open("instagram.com")
+        elif 'open twitter' in query:
+            webbrowser.open("twitter.com")
+        elif 'open whatsapp' in query:
+            webbrowser.open("web.whatsapp.com")
+        elif 'open gmail' in query:
+            webbrowser.open("gmail.com")
+        elif 'shutdown computer' in query:
+            speak("Shutting down your computer Sir")
+            os.system("shutdown /s /t 1")
+        elif 'restart computer' in query:
+            speak("Restarting your computer Sir")
+            os.system("shutdown /r /t 1")
+        elif 'sleep computer' in query:
+            speak("Sleeping your computer Sir")
+            os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+        elif 'hibernate computer' in query:
+            speak("Hibernating your computer Sir")
+            os.system("shutdown /h")
+        elif 'open notepad' in query:
+            speak("Opening notepad")
+            os.system("notepad")
+        elif 'open calculator' in query:
+            speak("Opening calculator")
+            os.system("calc")
+        elif 'open camera' in query:
+            speak("Opening camera")
+            os.system("start microsoft.windows.camera:")
+        elif 'open task manager' in query:
+            speak("Opening task manager")
+            os.system("taskmgr")
+        elif 'open control panel' in query:
+            speak("Opening control panel")
+            os.system("control panel")
+        elif 'open command prompt' in query:
+            speak("Opening command prompt")
+            os.system("cmd")
+        elif 'open paint' in query:
+            speak("Opening paint")
+            os.system("mspaint")
             
