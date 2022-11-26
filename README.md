@@ -9,7 +9,7 @@ A.I. assistant that can perform many daily tasks like sending emails, playing mu
 
 Project Maintainer: dCoders Family
 
-Contributors:
+Devolopers:
 
     Name: Zaman Sheikh (Md. Shamsuzzaman)
     ID: 211-15-4031
@@ -31,6 +31,7 @@ Contributors:
     import datetime
     import speech_recognition as sr
     import pyaudio
+    import wikipedia
  
 
 # How to use:
