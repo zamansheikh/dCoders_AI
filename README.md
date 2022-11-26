@@ -1,12 +1,15 @@
 # dCoders_AI
 Project Name: dCoders_AI
+
 Project Description:
+
 A.I. assistant that can perform many daily tasks like sending emails, playing music, and searching Wikipedia.
 
 # Devolopers:
 
 Project Maintainer: dCoders Family
-    Contributors:
+
+Contributors:
     Name: Zaman Sheikh (Md. Shamsuzzaman)
     ID: 211-15-4031
     Name: Abdullah Al Mamun
