@@ -46,7 +46,7 @@ def wishMe():
     else:
         speak("Good Evening!")  
 
-    speak("Sir, I am dCoders_AI Sir. Please tell me how may I help you")
+    speak("I am dCoders AI Sir. Please tell me how may I help you")
 
 if __name__ == "__main__":
     wishMe()
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
-        elif 'open code' or 'open vs code' in query:
+        elif 'open code' in query:
             #open vscode
             codePath = "C:\\Program Files\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
             #open chrome
             codePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
             os.startfile(codePath)
-        elif 'shutdown' in query:
+        elif 'shutdown system' in query:
             speak("Shutting down")
             isRunning = False
             
