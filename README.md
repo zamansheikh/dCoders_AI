@@ -10,11 +10,17 @@ A.I. assistant that can perform many daily tasks like sending emails, playing mu
 Project Maintainer: dCoders Family
 
 Contributors:
+
     Name: Zaman Sheikh (Md. Shamsuzzaman)
+
     ID: 211-15-4031
+
     Name: Abdullah Al Mamun
+
     ID: 211-15-4052
+
     Name: Muhaiminul Islam Nafiz
+    
     ID: 211-15-4041
 
 
